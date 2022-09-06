@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Registrate en DevStagram
+    Registrate en Gggram
 @endsection
 
 @section('contenido')
