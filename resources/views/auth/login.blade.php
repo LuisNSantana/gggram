@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Iniciar Sesión en DevStagram
+    Iniciar Sesión en Gggran
 @endsection
 
 @section('contenido')
