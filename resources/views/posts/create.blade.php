@@ -42,13 +42,7 @@
                         <p class="bg-red-500 text-white my-2 rounded-lg text-sm text-center">{{ $message }}</p>
                     @enderror
                 </div>
-                <div class="mb-5">
-                    <!--Poner el mismo nombre que en tu bd para que automaticamente se asingen !-->
-                    <input name='imagen' type="hidden" value="{{ old('imagen') }}" />
-                </div>
-                @error('imagen')
-                    <p class="bg-red-500 text-white my-2 rounded-lg text-sm text-center">{{ $message }}</p>
-                @enderror
+                
 
                 <input type="submit" value="Crear Publicacion"
                     class="bg-sky-600 hover:bg-sky-700 transition-colors cursor-pointer uppercase font-bold w-full text-white rounded-lg" />
